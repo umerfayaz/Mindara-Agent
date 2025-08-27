@@ -1,46 +1,48 @@
-Mindara Agent 🤖
+🤖 Mindara Agent
 
-Mindara is an autonomous AI assistant built with LangGraph and Flask, designed to optimize daily work by handling tasks 24/7. It’s not just a chatbot — it’s a fully functional agent capable of scheduling meetings, managing emails, and performing context-aware actions.
+Mindara is an autonomous AI assistant built with LangGraph and Flask, designed to optimize your daily workflow. It runs 24/7, managing meetings, emails, and context-aware tasks — more than a chatbot, a real digital assistant.
 
-🚀 Features
+🧩 Core Capabilities
 
-Autonomous Task Handling – Runs continuously to manage tasks and workflows.
+🗓️ Meeting Scheduler
 
-Meeting Scheduler – Integrates with calendars to schedule, check, and update meetings.
+Integrates with calendars
 
-Email Manager – Sends, organizes, and responds to emails automatically.
+Schedules, updates, and organizes meetings automatically
 
-Context-Aware Decisions – Acts intelligently based on task context, not just simple responses.
+📧 Email Manager
 
-Custom Commands – Supports personal commands like daily briefs, music playback, and more.
+Sends, responds, and organizes emails
+
+Automates repetitive communication tasks
+
+⚡ Autonomous Decision-Making
+
+Acts based on task context
+
+Executes personal commands intelligently
+
+🎵 Custom Commands
+
+Daily briefs, favorite music, or other personalized tasks
+
+🔄 Multi-LLM Tested
+
+GPT-4o Mini, LLaMA 70B, DeepSeek R1
+
+Adaptable and versatile across tasks
 
 🛠 Tech Stack
 
-LangGraph Framework – Structured orchestration of autonomous agents.
+LangGraph → Agent orchestration
 
-Flask API – Backend server for scalable integrations.
+Flask API → Backend integration
 
-Environment Variables & dotenv – Secure management of API keys and passwords.
+Python + dotenv → Secure environment variables
 
-Tested with Multiple LLMs – GPT-4o Mini, LLaMA 70B, and DeepSeek R1 for versatility.
+Robust Error Handling → Reliable in real-world automation
 
 ⚡ Getting Started
-
-Clone the repository:
-
 git clone https://github.com/umerfayaz/Mindara-Agent.git
-
-Install dependencies:
-
+cd Mindara-Agent
 pip install -r requirements.txt
-
-
-Run the agent:
-
-python ai_sidekick/app.py
-
-📂 Repository Structure
-ai_sidekick/         # Core agent scripts
-frontend/            # Frontend interface
-.sidekick-frontend/  # Ignored
-.env                 # Local environment variables (ignored)
